@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset = "UTF-8">
+        <title>Calculator</title>
+        <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABgYGABwcHAAMDAwAEhISABgYGAAJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAMAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAD4HwAA4AcAAMADAACAAQAAgB8AAAB/AAAA/wAAAf8AAAH9AAAD/wAAA/8AAIP/AACDnwAAwZ8AAOH+AAD4/wAA" rel="icon" type="image/x-icon" />
+
+        <link rel = "stylesheet" href = "./styles/normalize.css">
+        <link rel = "stylesheet" href = "./styles/style.css">
+        <script defer src = "./scripts/script.js"></script>
+    </head>
+
+    <body>
+
+        <div id = "container">
+
+            <div id = "calculator">
+
+                <div id = "scrBorder">
+
+                    <div id = "scr">
+                        <div id = "scrWrap">
+                            <div id = "userInput">
+                                
+                            </div>
+
+                            <div id = "answer">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id = "keyPad">
+
+                    <button type = "button" class = "specialBtn diff" value = "clr">clr</button>
+                    <button type = "button" class = "specialBtn diff" value = "backspace">&larr;</button>
+                    <button type = "button" class = "specialBtn diff" value = "plusMinus">+/-</button>
+                    <button type = "button" class = "specialBtn operator" value = "+">+</button>
+
+                    <button type = "button" class = "num" value = "7">7</button>
+                    <button type = "button" class = "num" value = "8">8</button>
+                    <button type = "button" class = "num" value = "9">9</button>
+                    <button type = "button" class = "specialBtn operator" value = "-">-</button>
+
+                    <button type = "button" class = "num" value = "4">4</button>
+                    <button type = "button" class = "num" value = "5">5</button>
+                    <button type = "button" class = "num" value = "6">6</button>
+                    <button type = "button" class = "specialBtn operator" value = "x">x</button>
+
+                    <button type = "button" class = "num" value = "1">1</button>
+                    <button type = "button" class = "num" value = "2">2</button>
+                    <button type = "button" class = "num" value = "3">3</button>
+                    <button type = "button" class = "specialBtn operator" value = "/">/</button>
+
+                    <button type = "button" class = "num" value = "0">0</button>
+                    <button type = "button" class = "num" value = "00">00</button>
+                    <button type = "button" class = "num" value = ".">.</button>
+                    <button type = "button" id = "equals" class = "specialBtn diff" value = "=">=</button>
+
+                </div>
+
+            </div>
+        </div>
+        
+    </body>
+
+</html>

@@ -1,0 +1,1 @@
+Intro Notes: Final JS Project under the TheOdinProject. This project will cover html, css and JS. I hope it is a good piece to add under my portfolio.
